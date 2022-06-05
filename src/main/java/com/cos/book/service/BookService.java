@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 public class BookService {
 
 	private final BookRepository bookRepository;
-
+//주석
 	@Transactional
 	public Book 저장하기(Book book) {
 		return bookRepository.save(book);
